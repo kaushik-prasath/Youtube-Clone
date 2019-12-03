@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:600|Roboto&display=swap');
+
+
+.search-bar{
+    width: 1280px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-search{
+    margin: 12px 0 0 150px;
+}
+
+.searchbox{
+    padding: 8px 200px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.searchbutton{
+    padding: 10px 30px;
+}
+
+.search-icons{
+    font-size: 18px;
+    color: #777;
+    margin: 20px 40px 0 0;
+}
+
+.search-icons i{
+    margin-right: 30px;
+}

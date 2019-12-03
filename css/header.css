@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:600&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald:600|Roboto&display=swap');
 
 .head-wrapper{
-    width: 250px;
+    width: 300px;
     height: 100vh;
     background: white;
 }
@@ -31,7 +30,7 @@
 .header-nav ul li{
     list-style: none;
     padding: 15px;
-
+    transition: .2s ease-in-out;
 }
 
 .header-nav ul li i {
@@ -45,6 +44,8 @@
     margin-left: 30px;
     font-size: 15px;
     color:#666;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .header-nav ul li:hover{
